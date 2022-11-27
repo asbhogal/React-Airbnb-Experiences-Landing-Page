@@ -2,7 +2,7 @@
 
 <h1>React Airbnb Experiences Landing Page Project - freeCodeCamp</h1>
 
-![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/React-Airbnb-Experiences-Landing-Page/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/React-Airbnb-Experiences-Landing-Page?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/React-Airbnb-Experiences-Landing-Page?color=blueviolet&style=for-the-badge&labelColor=000)
+![](https://api.checklyhq.com/v1/badges/checks/8382f657-60f9-4adf-8ac3-ef5902818ecd?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/8382f657-60f9-4adf-8ac3-ef5902818ecd?style=for-the-badge&theme=dark&responseTime=true) <br><br> ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/React-Airbnb-Experiences-Landing-Page/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/React-Airbnb-Experiences-Landing-Page?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/React-Airbnb-Experiences-Landing-Page?color=blueviolet&style=for-the-badge&labelColor=000)
 
 </div>
 
@@ -26,6 +26,6 @@ A landing page for 'Airbnb Experiences' created as part of the freeCodeCamp's Re
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" alt="Figma logo" width="50" height="50" style="max-width:100%;"></a>
 
 <strong>:link: Links</strong><br>
- - <a target="_blank" href="https://React-Airbnb-Experiences-Landing-Page-project.vercel.app/">React Digital Business Cards Project</a>
+ - <a target="_blank" href="https://React-Airbnb-Experiences-Landing-Page-project.vercel.app/">React 'Airbnb Experiences - Landing Page' Project</a>
  - <a target="_blank" href="https://www.youtube.com/watch?v=bMknfKXIFA8">freeCodeCamp course - YouTube</a>
  - <a target="_blank" href="https://scrimba.com/learn/learnreact">freeCodeCamp course - Scrimba</a>
