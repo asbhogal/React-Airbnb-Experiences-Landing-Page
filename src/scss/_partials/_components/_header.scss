@@ -1,0 +1,16 @@
+@use '/src/scss/_partials/variables' as *;
+
+.Header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: $White;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    .AirbnbLogo {
+        margin-left: 30px;
+    }
+}

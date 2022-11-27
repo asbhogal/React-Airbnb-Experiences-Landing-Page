@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    &:is(&::after, &::before, *) {
+        box-sizing: border-box;
+    }
+    outline: red .0625rem solid;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
