@@ -2,7 +2,7 @@
 
 <h1>React Airbnb Experiences Landing Page Project - freeCodeCamp</h1>
 
-![](https://api.checklyhq.com/v1/badges/checks/514f0279-bb3d-40f2-bd25-a0bc3263b01f?style=for-the-badge&theme=dark&responseTime=true) ![](https://api.checklyhq.com/v1/badges/checks/514f0279-bb3d-40f2-bd25-a0bc3263b01f?style=for-the-badge&theme=dark) <br><br> ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/React-Airbnb-Experiences-Landing-Page/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/React-Airbnb-Experiences-Landing-Page?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/React-Airbnb-Experiences-Landing-Page?color=blueviolet&style=for-the-badge&labelColor=000)
+![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/React-Airbnb-Experiences-Landing-Page/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/React-Airbnb-Experiences-Landing-Page?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/React-Airbnb-Experiences-Landing-Page?color=blueviolet&style=for-the-badge&labelColor=000)
 
 </div>
 
