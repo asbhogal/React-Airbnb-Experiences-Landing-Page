@@ -1,0 +1,36 @@
+/****** POPPINS - SEMIBOLD - 600 ******/
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    src:    url('/src/fonts/Poppins-SemiBold.woff'), format('woff'),
+            url('/src/fonts/Poppins-SemiBold.woff2'), format('woff2');
+    font-display: swap;
+}
+
+/****** POPPINS - REGULAR - 400 ******/
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    src:    url('/src/fonts/Poppins-Regular.woff'), format('woff'),
+            url('/src/fonts/Poppins-Regular.woff2'), format('woff2');
+    font-display: swap;
+}
+
+/****** POPPINS - LIGHT - 300 ******/
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    src:    url('/src/fonts/Poppins-Light.woff'), format('woff'),
+            url('/src/fonts/Poppins-Light.woff2'), format('woff2');
+    font-display: swap;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
