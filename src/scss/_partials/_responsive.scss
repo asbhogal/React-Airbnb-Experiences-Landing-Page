@@ -1,0 +1,18 @@
+@media only screen and (max-width: 900px) {
+    .Masonry {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Header {
+        justify-content: center;
+        .AirbnbLogo {
+            margin-left: 0px !important;
+        }
+    }
+    .OnlineExperiencesHeading,
+    .InteractiveActivitiesSubheading {
+        text-align: center;
+    }
+}

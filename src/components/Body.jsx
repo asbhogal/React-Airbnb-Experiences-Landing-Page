@@ -1,12 +1,12 @@
-import cookingImage from '../mockups/cooking-image.svg';
-import bakeryImage from '../mockups/bakery-image.svg';
-import dancingImage from '../mockups/dancing-image.svg';
-import cookingImage2 from '../mockups/cooking-image-2.svg';
-import guitarImage from '../mockups/guitar-image.svg';
-import keyboardImage from '../mockups/keyboard-image.svg';
-import swimmingImage from '../mockups/swimming-image.svg';
-import meditationImage from '../mockups/meditation-image.svg';
-import singingImage from '../mockups/singing-image.svg';
+import cookingImage from '../mockups/cooking-image.png';
+import bakeryImage from '../mockups/bakery-image.png';
+import dancingImage from '../mockups/dancing-image.png';
+import cookingImage2 from '../mockups/cooking-image-2.png';
+import guitarImage from '../mockups/guitar-image.png';
+import keyboardImage from '../mockups/keyboard-image.png';
+import swimmingImage from '../mockups/swimming-image.png';
+import meditationImage from '../mockups/meditation-image.png';
+import singingImage from '../mockups/singing-image.png';
 
 const Body = (props) => {
     return (
@@ -43,6 +43,11 @@ const Body = (props) => {
             <section className="ExperiencesSection">
                 <h1 className="OnlineExperiencesHeading">Online Experiences</h1>
                 <h2 className="InteractiveActivitiesSubheading">Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</h2>
+                <div className="OnlineExperiencesCards">
+                    <div className="OnlineExperienceCard LifeLessons"></div>
+                    <div className="OnlineExperienceCard WeddingPhotography"></div>
+                    <div className="OnlineExperienceCard MountainBiking"></div>
+                </div>
             </section>
         </div>
     )
