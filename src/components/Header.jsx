@@ -1,6 +1,6 @@
 import AirbnbLogo from '../mockups/airbnb-logo.svg';
 
-const Header = (props) => {
+const Header = () => {
     return (
         <div className="Header">
             <div className="AirbnbLogo">
