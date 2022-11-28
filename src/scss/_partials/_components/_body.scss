@@ -1,0 +1,58 @@
+.Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Masonry {
+    display: grid;
+    height: 232px;
+    top: 172.8px;
+    position: absolute;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 8.44px;
+    scale: 1.8;
+    img {
+        display: block;
+    }
+    .BakeryImage {
+        margin-top: 7.23px;
+    }
+    .CookingImage {
+        margin-top: 49px;
+    }
+    .CookingImage2 {
+        margin-top: 30.13px;
+    }
+    .DancingImage {
+        margin-bottom: 79.54px;
+    }
+    .MeditationImage {
+        margin-top: 18.08px;
+    }
+    .MasonryItemLeft {
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+}
+
+.ExperiencesSection {
+    position: absolute;
+    left: 0;
+    top: 290px;
+    .OnlineExperiencesHeading {
+        position: absolute;
+        width: 347px;
+        height: 40px;
+        left: 36px;
+        top: 360px;
+    }
+    .InteractiveActivitiesSubheading {
+        position: absolute;
+        width: 320px;
+        height: 56px;
+        left: 36px;
+        top: 416px;
+    }
+}
