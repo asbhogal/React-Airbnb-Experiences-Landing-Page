@@ -7,6 +7,9 @@ import keyboardImage from '../mockups/keyboard-image.png';
 import swimmingImage from '../mockups/swimming-image.png';
 import meditationImage from '../mockups/meditation-image.png';
 import singingImage from '../mockups/singing-image.png';
+import katieZaferesImage from '../mockups/Katie-Zaferes-Image.png';
+import learnWeddingPhotographyImage from '../mockups/Learn-Wedding-Photography-Image.png';
+import groupMountainBikingImage from '../mockups/Group-Mountain-Biking-Image.png';
 
 const Body = (props) => {
     return (
@@ -44,9 +47,27 @@ const Body = (props) => {
                 <h1 className="OnlineExperiencesHeading">Online Experiences</h1>
                 <h2 className="InteractiveActivitiesSubheading">Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</h2>
                 <div className="OnlineExperiencesCards">
-                    <div className="OnlineExperienceCard LifeLessons"></div>
-                    <div className="OnlineExperienceCard WeddingPhotography"></div>
-                    <div className="OnlineExperienceCard MountainBiking"></div>
+                    <div className="OnlineExperienceCard LifeLessons">
+                        <div className="OnlineExperiencePicture">
+                            <div className="OnlineExperienceStatusBadge">
+                                <p className="OnlineExperienceStatus">Sold Out</p>
+                            </div>
+                            <img src={ katieZaferesImage }></img>
+                        </div>
+                    </div>
+                    <div className="OnlineExperienceCard WeddingPhotography">
+                        <div className="OnlineExperiencePicture">
+                            <div className="OnlineExperienceStatusBadge">
+                                <p className="OnlineExperienceStatus">Online</p>
+                            </div>
+                            <img src={ learnWeddingPhotographyImage }></img>
+                        </div>
+                    </div>
+                    <div className="OnlineExperienceCard MountainBiking">
+                        <div className="OnlineExperiencePicture">
+                            <img src={ groupMountainBikingImage }></img>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>

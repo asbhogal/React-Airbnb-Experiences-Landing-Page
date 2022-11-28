@@ -1,3 +1,5 @@
+@use '../variables' as *;
+
 .Body {
     display: flex;
     flex-direction: column;
@@ -7,8 +9,7 @@
 
 .Masonry {
     display: grid;
-    height: 232px;
-    top: 172.8px;
+    top: 135px;
     position: absolute;
     grid-template-columns: auto auto auto auto auto;
     gap: 8.44px;
@@ -37,21 +38,44 @@
 }
 
 .ExperiencesSection {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     left: 0;
-    top: 290px;
+    top: 1000px;
+    width: 100%;
+    .OnlineExperiencesCards {
+        display: flex;
+        justify-content: space-between;
+    }
     .OnlineExperiencesHeading {
-        position: absolute;
         width: 347px;
         height: 40px;
         left: 36px;
         top: 360px;
     }
     .InteractiveActivitiesSubheading {
-        position: absolute;
         width: 320px;
         height: 56px;
         left: 36px;
         top: 416px;
     }
+}
+
+.OnlineExperiencePicture {
+    position: absolute;
+}
+
+.OnlineExperiencePicture img {
+    height: 235px;
+}
+
+.OnlineExperienceStatusBadge {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    background-color: $White;
+    color: $RaisinBlack;
+    border-radius: 2px;
+    text-transform: uppercase;
 }
