@@ -68,6 +68,7 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
+    position: relative;
 }
 
 .OnlineExperiencePicture img {
@@ -78,14 +79,24 @@
     height: 14px;
 }
 
+.ExperienceCardRating {
+    font-weight: 300;
+    color: $SpanishGray;
+    :nth-child(2) {
+        color: $RaisinBlack;
+    }
+}
+
 .OnlineExperienceStatusBadge {
     position: absolute;
-    top: 6px;
-    left: 8px;
+    /* top: 6px; */
+    /* left: 8px; */
     background-color: $White;
     color: $RaisinBlack;
     border-radius: 2px;
     text-transform: uppercase;
+    margin-top: 6px;
+    margin-left: 8px;
 }
 
 .ExperiencePrice,
