@@ -9,6 +9,10 @@ import meditationImage from '../mockups/meditation-image.png';
 import singingImage from '../mockups/singing-image.png';
 import ExperienceCard from './ExperienceCard';
 
+import katieZaferesImg from '../mockups/Katie-Zaferes-Image.png';
+import learnWeddingPhotographyImg from '../mockups/Learn-Wedding-Photography-Image.png';
+import groupMountainBikingImg from '../mockups/Group-Mountain-Biking-Image.png';
+
 const Body = (props) => {
     return (
         <div className="Body">
@@ -45,9 +49,32 @@ const Body = (props) => {
                 <h1 className="OnlineExperiencesHeading">Online Experiences</h1>
                 <h2 className="InteractiveActivitiesSubheading">Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</h2>
                 <div className="OnlineExperiencesCards">
-                    <ExperienceCard />
-                    <ExperienceCard />
-                    <ExperienceCard />
+                    <ExperienceCard 
+                        experienceStatus = "Sold Out"
+                        experienceRating = "5.0"
+                        experienceRatingCount = "6"
+                        experienceLocation = "USA"
+                        experienceImg = { katieZaferesImg }
+                        experiencePrice = "136"
+                        experienceHeadline = "Life lessons with Katie Zaferes"
+                    />
+                    <ExperienceCard 
+                        experienceStatus = "Online"
+                        experienceRating = "5.0"
+                        experienceRatingCount = "30"
+                        experienceLocation = "USA"
+                        experienceImg = { learnWeddingPhotographyImg }
+                        experiencePrice = "125"
+                        experienceHeadline = "Learn wedding photography"
+                    />
+                    <ExperienceCard 
+                        experienceRating = "4.8"
+                        experienceRatingCount = "2"
+                        experienceLocation = "USA"
+                        experienceImg = { groupMountainBikingImg }
+                        experiencePrice = "50"
+                        experienceHeadline = "Group Mountain Bikin"
+                    />
                 </div>
             </section>
         </div>

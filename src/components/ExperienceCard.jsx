@@ -1,4 +1,3 @@
-import katieZaferesImage from '../mockups/Katie-Zaferes-Image.png';
 import starRating from '../mockups/Star.svg';
 
 const ExperienceCard = (props) => {
@@ -6,24 +5,24 @@ const ExperienceCard = (props) => {
         <div className="OnlineExperienceCard">
             <div className="OnlineExperiencePicture">
                 <div className="OnlineExperienceStatusBadge">
-                    <p className="OnlineExperienceStatus">Sold Out</p>
+                    <p className="OnlineExperienceStatus">{ props.experienceStatus }</p>
                 </div>
-                <img src={ katieZaferesImage }></img>
+                <img src={ props.experienceImg }></img>
             </div>
             <div className="ExperienceCardSnapshot">
                 <div className="ExperienceCardRating">
                     <img className="StarRatingIcon" src={ starRating }></img>
-                    <span className="StarRating"> 5.0</span>
-                    <span className="StarReviewCount">(6)</span>
+                    <span className="StarRating"> { props.experienceRating } </span>
+                    <span className="StarReviewCount">({ props.experienceRatingCount }) </span>
                     &#183;
-                    <span className="StarRatingLocation"> USA</span>
+                    <span className="ExperienceLocation"> { props.experienceLocation }</span>
                 </div>
                 <div className="ExperienceCardName">
-                    <p>Life lessons with Katie Zaferes</p>
+                    <p>{ props.experienceHeadline }</p>
                 </div>
                 <div className="ExperienceCardPrice">
                     <span className="ExperiencePriceOverview">From </span>
-                    <span className="ExperiencePrice">$136</span> / person
+                    <span className="ExperiencePrice">${ props.experiencePrice }</span> / person
                 </div>
             </div>
         </div>

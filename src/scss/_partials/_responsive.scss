@@ -1,18 +1,43 @@
+@media only screen and (min-width: 1099px) and (max-width: 1225px) {
+    .Masonry {
+        scale: 0.9 !important;
+    }
+}
+
+@media only screen and (min-width: 975px) and (max-width: 1100px) {
+    .Masonry {
+        scale: 0.8 !important;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 974px) {
+    .Masonry {
+        scale: 0.7 !important;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .Masonry {
         display: none !important;
     }
+    .ExperiencesSection {
+        top: 100px !important;
+    }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 555px) {
     .Header {
         justify-content: center;
         .AirbnbLogo {
             margin-left: 0px !important;
         }
     }
+    .OnlineExperiencesCards {
+        flex-direction: column;
+    }
     .OnlineExperiencesHeading,
     .InteractiveActivitiesSubheading {
-        text-align: center;
+        width: 100% !important;
+        text-align: center !important;
     }
 }
