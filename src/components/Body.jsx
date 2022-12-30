@@ -9,7 +9,6 @@ import meditationImage from '../mockups/meditation-image.png';
 import singingImage from '../mockups/singing-image.png';
 import ExperienceCard from './ExperienceCard';
 import cardData from '../js/data.js'
-console.log(cardData);
 
 const Body = (props) => {
     const cards = cardData.map(item => {
@@ -28,7 +27,6 @@ const Body = (props) => {
 
     return (
         <div className="Body">
-            // MASONRY SECTION
             <div className="Masonry">
                 <div className="MasonryItemLeft MasonryItem">
                     <img className="CookingImage" src={ cookingImage }></img>
@@ -62,8 +60,10 @@ const Body = (props) => {
             <section className="ExperiencesSection">
                 <h1 className="OnlineExperiencesHeading">Online Experiences</h1>
                 <h2 className="InteractiveActivitiesSubheading">Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</h2>
-                <div className="OnlineExperiencesCards"></div>
-                {cards}
+                <div className="OnlineExperiencesCards">
+                    {cards}
+                </div>
+                
             </section>
     
         </div>
