@@ -7,7 +7,7 @@ const ExperienceCard = (props) => {
                 <div className="OnlineExperienceStatusBadge">
                     <p className="OnlineExperienceStatus">{ props.experienceStatus }</p>
                 </div>
-                <img src={`../src/mockups/${props.img}`} className="experienceImg"></img>
+                <img src={require(`/src/mockups/${props.img}`)} className="experienceImg"></img>
             </div>
             <div className="ExperienceCardSnapshot">
                 <div className="ExperienceCardRating">
