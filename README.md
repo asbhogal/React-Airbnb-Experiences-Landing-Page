@@ -10,6 +10,7 @@ A landing page for 'Airbnb Experiences' created as part of the freeCodeCamp's Re
 
 <strong>:heavy_check_mark: Features:</strong><br>
   - Designed from Figma mockup
+  - Leverages .map() and conditional rendering
   - Fully responsive
   - Optimised for the web
 

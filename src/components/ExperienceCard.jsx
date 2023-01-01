@@ -1,6 +1,7 @@
 import starRating from '../mockups/Star.svg';
 
 const ExperienceCard = (props) => {
+    console.log(props.openSpots);
     return (
         <div className="OnlineExperienceCard">
             <div className="OnlineExperiencePicture">
