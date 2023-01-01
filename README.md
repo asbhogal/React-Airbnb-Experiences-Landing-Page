@@ -6,11 +6,12 @@
 
 </div>
 
-A landing page for 'Airbnb Experiences' created as part of the freeCodeCamp's React tutorial, coded with HTML5, CSS3, SCSS, JavaScript (ES6), React and leveraging Babel and Webpack. The design has been adapted from a Figma file (see mockups directory) with data for the card return from the <code>data.js</code> file using .map and conditional rendering. This repo is currently under development.
+A landing page for 'Airbnb Experiences' created as part of the freeCodeCamp's React tutorial, coded with HTML5, CSS3, SCSS, JavaScript (ES6), React and leveraging Babel and Webpack. The design has been adapted from a Figma file (see mockups directory) which replicates the layout from AirBnb. Data for the card is returned from the <code>data.js</code> file using .map and conditional rendering is leveraged to return a badge stating either 'ONLINE' or 'SOLD OUT' if a set of conditions are met (ie. 'truthy' values.) An object of the individual props are then passed to the component.
 
 <strong>:heavy_check_mark: Features:</strong><br>
   - Designed from Figma mockup
   - Leverages .map() and conditional rendering
+  - Passes an object of props as a singular prop to card components
   - Fully responsive
   - Optimised for the web
 

@@ -1,29 +1,35 @@
 import starRating from '../mockups/Star.svg';
 
 const ExperienceCard = (props) => {
-    console.log(props.openSpots);
+
+    let badgeText;
+    if (props.item.openSpots === 0) {
+        badgeText = "SOLD OUT"
+    } else if (props.item.location === "Online") {
+        badgeText = "ONLINE"
+    }
+
     return (
         <div className="OnlineExperienceCard">
             <div className="OnlineExperiencePicture">
-                <div className="OnlineExperienceStatusBadge">
-                    {props.openSpots === 0 && <p className="OnlineExperienceStatus">SOLD OUT</p>}
-                </div>
-                <img src={require(`/src/mockups/${props.img}`)} className="experienceImg"></img>
+                { badgeText && <div className="OnlineExperienceStatusBadge"> <p className="OnlineExperienceStatus">{ badgeText }</p>
+                </div>}
+                <img src={require(`/src/mockups/${props.item.coverImg}`)} className="experienceImg"></img>
             </div>
             <div className="ExperienceCardSnapshot">
                 <div className="ExperienceCardRating">
                     <img className="StarRatingIcon" src={ starRating }></img>
-                    <span className="StarRating"> { props.experienceRating } </span>
-                    <span className="StarReviewCount">({ props.experienceRatingCount }) </span>
+                    <span className="StarRating"> { props.item.stats.rating } </span>
+                    <span className="StarReviewCount">({ props.item.stats.reviewCount }) </span>
                     &#183;
-                    <span className="ExperienceLocation"> { props.experienceLocation }</span>
+                    <span className="ExperienceLocation"> { props.item.location }</span>
                 </div>
                 <div className="ExperienceCardName">
-                    <p>{ props.experienceHeadline }</p>
+                    <p>{ props.item.title }</p>
                 </div>
                 <div className="ExperienceCardPrice">
                     <span className="ExperiencePriceOverview">From </span>
-                    <span className="ExperiencePrice">${ props.experiencePrice }</span> / person
+                    <span className="ExperiencePrice">${ props.item.price }</span> / person
                 </div>
             </div>
         </div>

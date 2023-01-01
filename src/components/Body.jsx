@@ -14,13 +14,8 @@ const Body = (props) => {
     const cards = cardData.map(item => {
         return (
             <ExperienceCard 
-                img={item.coverImg}
-                experienceRating={ item.stats.rating }
-                experienceRatingCount={ item.stats.reviewCount }
-                experienceLocation ={ item.location }
-                experiencePrice={ item.price }
-                experienceHeadline={ item.title }
-                experienceStatus={ item.openSpots }
+                key={ item.id }
+                item={ item }
             />
         )
     })
