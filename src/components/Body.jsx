@@ -16,7 +16,6 @@ const Body = (props) => {
             <ExperienceCard 
                 img={item.coverImg}
                 experienceRating={ item.stats.rating }
-                // experienceStatus={ item.status }
                 experienceRatingCount={ item.stats.reviewCount }
                 experienceLocation ={ item.location }
                 experiencePrice={ item.price }

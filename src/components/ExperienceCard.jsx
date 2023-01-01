@@ -6,7 +6,7 @@ const ExperienceCard = (props) => {
         <div className="OnlineExperienceCard">
             <div className="OnlineExperiencePicture">
                 <div className="OnlineExperienceStatusBadge">
-                    <p className="OnlineExperienceStatus">{ props.experienceStatus }</p>
+                    {props.openSpots === 0 && <p className="OnlineExperienceStatus">SOLD OUT</p>}
                 </div>
                 <img src={require(`/src/mockups/${props.img}`)} className="experienceImg"></img>
             </div>

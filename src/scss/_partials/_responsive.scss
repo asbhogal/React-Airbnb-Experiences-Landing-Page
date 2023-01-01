@@ -22,10 +22,11 @@
     }
     .ExperiencesSection {
         top: 100px !important;
+        align-items: center;
     }
 }
 
-@media only screen and (width <= 555px) {
+@media only screen and (width <= 748px) {
     .Header {
         justify-content: center;
         .AirbnbLogo {
